@@ -1,5 +1,7 @@
 # react-error-html [![NPM version][npm-image]][npm-url]
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/christophehurpeau/react-error-html.svg)](https://greenkeeper.io/)
+
 react component to display errors with error-html
 
 [![Build Status][circleci-status-image]][circleci-status-url]
