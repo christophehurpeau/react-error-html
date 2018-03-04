@@ -2,5 +2,8 @@ import HtmlRenderer from 'error-html';
 
 const htmlRenderer = new HtmlRenderer();
 
-export default ({ error }) =>
-  <div dangerouslySetInnerHTML={{ __html: htmlRenderer.render(error) }} />;
+const RenderError = ({ error }) => (
+  <div dangerouslySetInnerHTML={{ __html: htmlRenderer.render(error) }} />
+);
+
+export default RenderError;
