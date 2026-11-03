@@ -1,9 +1,17 @@
-# react-error-html [![NPM version][npm-image]][npm-url]
+<h1 align="center">
+  react-error-html
+</h1>
 
-react component to display errors with error-html
+<p align="center">
+  react component to display errors with error-html
+</p>
 
-[![Dependency Status][daviddm-image]][daviddm-url]
-[![Dependency ci Status][dependencyci-image]][dependencyci-url]
+<p align="center">
+  <a href="https://npmjs.org/package/react-error-html"><img src="https://img.shields.io/npm/v/react-error-html.svg?style=flat-square" alt="npm version"></a>
+  <a href="https://npmjs.org/package/react-error-html"><img src="https://img.shields.io/npm/dw/react-error-html.svg?style=flat-square" alt="npm downloads"></a>
+  <a href="https://npmjs.org/package/react-error-html"><img src="https://img.shields.io/node/v/react-error-html.svg?style=flat-square" alt="node version"></a>
+  <a href="https://npmjs.org/package/react-error-html"><img src="https://img.shields.io/npm/types/react-error-html.svg?style=flat-square" alt="types"></a>
+</p>
 
 ## Why ?
 
@@ -22,20 +30,11 @@ npm install --save react-error-html
 ## Usage with react-hot-loader
 
 ```js
-import React from 'react';
-import { AppContainer } from 'react-hot-loader';
-import ReactErrorHtml from 'react-error-html';
+import React from "react";
+import { AppContainer } from "react-hot-loader";
+import ReactErrorHtml from "react-error-html";
 
 export default ({ children }) => (
-  <AppContainer errorReporter={ReactErrorHtml}>
-    {children}
-  </AppContainer>
+  <AppContainer errorReporter={ReactErrorHtml}>{children}</AppContainer>
 );
 ```
-
-[npm-image]: https://img.shields.io/npm/v/react-error-html.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/react-error-html
-[daviddm-image]: https://david-dm.org/christophehurpeau/react-error-html.svg?style=flat-square
-[daviddm-url]: https://david-dm.org/christophehurpeau/react-error-html
-[dependencyci-image]: https://dependencyci.com/github/christophehurpeau/react-error-html/badge?style=flat-square
-[dependencyci-url]: https://dependencyci.com/github/christophehurpeau/react-error-html

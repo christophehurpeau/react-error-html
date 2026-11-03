@@ -1,0 +1,17 @@
+allowBuilds:
+  esbuild: true
+dedupePeerDependents: true
+minimumReleaseAge: 3600
+minimumReleaseAgeExclude:
+  - "@pob/*"
+  - pob
+  - pob-dependencies
+  - check-package-dependencies
+  - alouette
+  - alouette-icons
+  - nightingale
+  - nightingale-logger
+  - nightingale-levels
+  - nightingale-types
+nodeLinker: hoisted
+savePrefix: ^

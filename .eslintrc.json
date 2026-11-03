@@ -1,6 +1,0 @@
-{
-  "extends": "pob/react",
-  "rules": {
-    "react/prop-types": "off"
-  }
-}
