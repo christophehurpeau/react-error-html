@@ -1,3 +1,22 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## [0.3.0](https://github.com/christophehurpeau/react-error-html/compare/v0.2.2...v0.3.0) (2026-11-03)
+
+### ⚠ BREAKING CHANGES
+
+* regenerate with pob, switch to pnpm and typescript ([#3](https://github.com/christophehurpeau/react-error-html/issues/3))
+
+### Features
+
+* regenerate with pob, switch to pnpm and typescript ([#3](https://github.com/christophehurpeau/react-error-html/issues/3))
+
+### Bug Fixes
+
+* **deps:** refresh yarn.lock to patched dev-tooling versions ([#2](https://github.com/christophehurpeau/react-error-html/issues/2))
+
 <a name="0.2.2"></a>
 ## [0.2.2](https://github.com/christophehurpeau/react-error-html/compare/v0.2.1...v0.2.2) (2018-03-04)
 
